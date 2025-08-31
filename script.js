@@ -1,10 +1,12 @@
 //Press the space bar or mouse to start
 
 /* VARIABLES */
-let bird, ground, pipes, gameOver;
+let bird, ground, pipes, gameOver, canStartNewGame;
+let birdImg;
 
 /* PRELOAD LOADS FILES */
 function preload() {
+	birdImg = loadImage("bird.png");
 }
 
 /* SETUP RUNS ONCE */
@@ -17,6 +19,8 @@ function setup() {
 
   //Create player or bird sprite
 	bird = new Sprite(0, height / 2);
+	bird.img = birdImg; 
+	bird.scale = 0.3;
 
   //Create game pipes group
 	pipes = new Group();
