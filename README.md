@@ -1,32 +1,31 @@
-# Flappy Bird Sample Project
-Fork, explore, and mod this game to make it your own.
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+# 🕊️ Flappy Bird
 
-###  Attributions
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
-- This game was inspired by Quinton Ashley's project: https://openprocessing.org/sketch/1866799. 
+This project is a fun and simple p5.js + p5.play arcade style game where the user has to make the bird fly through the pipes without the bird touching them.
 
 ---
 
-## File Overview
+## 🎮 How to Play
 
-### ← script.js
+* You should use the space key to jump.
+* Keep pressing to make the bird flap upward.
+* Avoid hitting the pipes or the ground.
+* The game ends adn restarts when you collide with an obstacle.
 
-This is where we will add the JavaScript code for our game.
+---
 
-### ← assets
+## 🛠️ Built With
 
-Drag in assets, like images, to add them to your project. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg` or `assets/example.png`.
+* [p5.js](https://p5js.org/)
+* [p5.play](https://molleindustria.github.io/p5.play/)
 
-### ← index.html
+---
 
-The HTML file contains HTML code that sets up a webpage for our game. We also add libraries in this file using HTML tags.
+## 🧠 What I Learned
 
-### ← README.md
+How to move an object using arrow keys, how to increase or decrease height(of jump) and size of the object. Collisions and adding custom assets.
 
-That's this file. This is the place to tell people more about what your game does and how you built it. 
+## Screenshot
 
-### ← style.css
-
-The CSS file adds styling rules to your content like changing colors and fonts. We will not use this file for our game and instead update the style of our game in the script.js file.
-
+<img width="770" height="1154" alt="image" src="https://github.com/user-attachments/assets/05dda9e0-7864-4ff0-adc7-cb713d29c7be" />
 
